@@ -48,6 +48,7 @@ export class EchartsEventsComponent implements OnInit {
 
     this.options = {
       title: {
+        left: '42%',
         text: 'Check Console for Events',
       },
       xAxis: {
