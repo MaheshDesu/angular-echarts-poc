@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { EchartsComponent } from './echarts/echarts.component';
+import { SimplechartComponent } from './simplechart/simplechart.component';
+import { RandomDatasetChartComponent } from './random-dataset-chart/random-dataset-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EchartsComponent
+    EchartsComponent,
+    SimplechartComponent,
+    RandomDatasetChartComponent,
   ],
   imports: [
     BrowserModule,
