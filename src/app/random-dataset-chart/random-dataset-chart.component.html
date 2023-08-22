@@ -1,1 +1,6 @@
-<p>random-dataset-chart works!</p>
+<br>
+<div class="button-groups" style="padding-left: 130px;">
+    <button (click)="RandomDataset()" nz-button nzType="default">Random Dataset</button>
+</div>
+<br>
+<div echarts [options]="options" [merge]="mergeOptions" class="demo-chart"></div>
