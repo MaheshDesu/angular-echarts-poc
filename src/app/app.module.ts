@@ -7,6 +7,7 @@ import { NgxEchartsModule } from 'ngx-echarts';
 import { EchartsComponent } from './echarts/echarts.component';
 import { SimplechartComponent } from './simplechart/simplechart.component';
 import { RandomDatasetChartComponent } from './random-dataset-chart/random-dataset-chart.component';
+import { EchartsEventsComponent } from './echarts-events/echarts-events.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RandomDatasetChartComponent } from './random-dataset-chart/random-datas
     EchartsComponent,
     SimplechartComponent,
     RandomDatasetChartComponent,
+    EchartsEventsComponent,
   ],
   imports: [
     BrowserModule,
